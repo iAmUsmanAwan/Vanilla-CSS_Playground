@@ -18,27 +18,27 @@
 /* Grid items */
 .grid-item {
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #cd6ceb;
     text-align: center;
 }
 
 /* Specific styles for each grid item */
 .header {
     grid-column: 1 / -1; /* Span across all columns */
-    background-color: #f8f9fa;
+    background-color: greenyellow;
 }
 
 .sidebar {
     grid-row: 2 / 3; /* Span from row 2 to row 3 */
-    background-color: #e9ecef;
+    background-color: #4ad87a;
 }
 
 .main-content {
     grid-row: 2 / 3; /* Span from row 2 to row 3 */
-    background-color: #dee2e6;
+    background-color: #1daf72;
 }
 
 .footer {
     grid-column: 1 / -1; /* Span across all columns */
-    background-color: #f8f9fa;
+    background-color: #37c5f0;
 }
